@@ -11,7 +11,7 @@ public class ButtonColorEvent : MonoBehaviour
 
         Button btn1 = root.Q<Button>("Button1");
         Button btn2 = root.Q<Button>("Button2");
-        Button btn3 = root.Q<Button>("Button2");
+        Button btn3 = root.Q<Button>("Button3");
         Button btn4 = root.Q<Button>("Button4");
 
         btn1.clicked += () => SetColor(Color.red);
