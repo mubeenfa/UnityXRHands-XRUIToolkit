@@ -14,6 +14,10 @@
                 <ui:Button text="Button" name="Button3" class="circlebuttonstyle edgebuttonstyle"/>
                 <ui:Button text="Button" name="Button4" class="roundbuttonstyle" style="border-top-right-radius: -10px; border-bottom-left-radius: 41px; border-top-left-radius: 44px; border-bottom-right-radius: -30px;"/>
             </ui:GroupBox>
+            <ui:GroupBox style="align-content: auto; flex-direction: row; flex-wrap: nowrap; align-items: auto; justify-content: flex-start; background-color: rgb(0, 0, 0);">
+                <ui:Label text="Gesture" name="Label" style="font-size: 14px; -unity-font-style: bold; color: rgb(255, 255, 255);"/>
+                <ui:Label text="waiting for gesture ..." name="HandGestureText" style="width: 247px; font-size: 14px; color: rgb(255, 255, 255);"/>
+            </ui:GroupBox>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
