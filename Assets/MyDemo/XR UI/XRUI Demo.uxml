@@ -1,0 +1,23 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MyDemo/XR%20UI/buttonstyle.uss?fileID=7433441132597879392&amp;guid=d8fd131147f316d44ad848c1b9a0898d&amp;type=3#buttonstyle"/>
+    <ui:VisualElement name="Root" style="flex-grow: 1; background-color: rgba(120, 71, 71, 0.81);">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 345px; scale: 1 1; translate: 0 0; bottom: 392px; position: absolute; top: 0; left: 0; right: 0;">
+            <ui:Label text="XR UI Toolkit" class="heading1style" style="-unity-text-align: lower-center; -unity-font-style: bold; font-size: 34px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; top: 58px; bottom: 0; position: absolute; height: 386px; width: 340px; right: 0; left: 0;">
+            <ui:GroupBox style="align-items: stretch; flex-wrap: wrap-reverse; flex-direction: column-reverse; justify-content: flex-start; align-self: auto; align-content: auto;">
+                <ui:Slider label="Slider" value="42" high-value="100" class="labelstyle"/>
+                <ui:Toggle label="Check" name="Toggle" class="labelstyle"/>
+            </ui:GroupBox>
+            <ui:GroupBox style="align-items: auto; justify-content: center; align-self: auto; flex-wrap: nowrap; flex-direction: row; align-content: auto;">
+                <ui:Button text="Button" name="Button1" class="buttonstyle edgebuttonstyle"/>
+                <ui:Button text="Button" name="Button2" class="buttonstyle roundbuttonstyle"/>
+                <ui:Button text="Button" name="Button3" class="circlebuttonstyle edgebuttonstyle"/>
+                <ui:Button text="Button" name="Button4" class="roundbuttonstyle" style="border-top-right-radius: -10px; border-bottom-left-radius: 41px; border-top-left-radius: 44px; border-bottom-right-radius: -30px;"/>
+            </ui:GroupBox>
+            <ui:DropdownField label="Dropdown" class="labelstyle"/>
+            <ui:Foldout text="Foldout" class="labelstyle"/>
+            <ui:TabView/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,59 @@
+:root {
+}
+
+.roundbuttonstyle {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    -unity-font-style: bold;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+
+.edgebuttonstyle {
+    background-color: rgb(204, 32, 32);
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: -8px;
+    border-top-right-radius: 56px;
+    border-bottom-right-radius: -19px;
+    border-bottom-left-radius: 56px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.buttonstyle:hover {
+    scale: 1.03 1.03 1.03;
+}
+
+.labelstyle {
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    font-size: 16px;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(219, 63, 63);
+    letter-spacing: 2px;
+    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    -unity-text-align: middle-left;
+    text-overflow: ellipsis;
+}
+
+.heading1style {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-text-outline-width: 5px;
+    -unity-text-outline-color: rgb(21, 180, 61);
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&guid=e3265ab4bf004d28a9537516768c1c75&type=3#LiberationSans");
+    letter-spacing: 2px;
+    background-color: rgb(82, 82, 82);
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    transform-origin: bottom;
+    scale: 1 1;
+}
